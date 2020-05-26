@@ -1,4 +1,4 @@
-SELECT * 
+SELECT *
 FROM Customers;
 
 SELECT FirstName
@@ -27,21 +27,21 @@ ORDER BY Country ASC;
 
 SELECT *
 FROM Products
-WHERE Price 
-BETWEEN 100 AND 600;
+WHERE Price
+BETWEEN '100' AND '600';
 
 SELECT *
-FROM Customers 
+FROM Customers
 WHERE Country = 'Germany'
 AND City = 'Berlin';
 
-SELECT *  
+SELECT *
 FROM Customers
-WHERE City = 'Cape Town' OR 'Durban'
+WHERE City = 'Cape Town' OR 'Durban';
 
 SELECT *
-FROM Products 
-WHERE Price > 500;
+FROM Products
+WHERE Price > '500';
 
 SELECT SUM(Amount)
 FROM Payments;
